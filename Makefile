@@ -7,26 +7,31 @@ s3:
 s4: 
 	git config --global user.mail "ecejaga@gmail.com"
 s5:
-	git add -A
+	git init
 s6:
-	git commit -m "filename (or) header"
+	git add -A
 s7:
-	git log
+	git ls-files
 s8:
-	git show commit ID
+	git commit -m "ledblink"
 s9:
-	github [create repository]
+	git log
 s10:
-	git remote add USB https://github.com/ecejaga/1.git
+	git show commit ID
+s11:
+	github [create repository]
+s12:
+	git remote add USB1 https://github.com/arsjaga/ledblink.git
+
+s13:
+	git branch relay
+s14:
+	git push -uf USB1 relay
+s15:
 	username:arsjaga
 	password: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
-s11:
-	git branch relay
-s12:
-	git push -uf USB relay
-s13:
+s16:
 	git pull
-s14:
-	git ls-files
-s15:
+
+s17:
 	git ls-tree -r master
