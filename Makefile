@@ -29,7 +29,7 @@ s14:
 	git push -uf USB1 relay
 s15:
 	username:arsjaga
-	password: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
+	password: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
 s16:
 	git pull
 
