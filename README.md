@@ -1,2 +1,2 @@
 # ledblink
-hi guna
+We used the Makefile 
